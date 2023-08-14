@@ -1,7 +1,9 @@
+import axios from 'axios';
+
 const API_KEY = '38809564-8e78081b89f9271c9b7f68ff4';
 const BASE_URL = 'https://pixabay.com/api/';
 
-import axios from "axios";
+
 
 
 async function searchPhoto(q, page, perPage) {

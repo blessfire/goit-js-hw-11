@@ -31,8 +31,8 @@ let page = 1;
 elements.form.addEventListener('submit', onSubmitForm);
 
 function onSubmitForm(event) {
-    event.preventDefault();
-    
+  event.preventDefault();
+
   elements.gallery.innerHTML = '';
   page = 1;
   const { searchQuery } = event.currentTarget.elements;
